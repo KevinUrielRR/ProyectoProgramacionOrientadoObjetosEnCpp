@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Aereonaves.h" />
+		<Unit filename="include/Biplano.h" />
+		<Unit filename="include/Helicoptero.h" />
+		<Unit filename="include/Monomotor.h" />
+		<Unit filename="include/Supersonico.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Aereonaves.cpp" />
+		<Unit filename="src/Biplano.cpp" />
+		<Unit filename="src/Helicoptero.cpp" />
+		<Unit filename="src/Monomotor.cpp" />
+		<Unit filename="src/Supersonico.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
