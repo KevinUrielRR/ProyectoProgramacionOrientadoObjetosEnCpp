@@ -6,7 +6,12 @@ class Aereonaves
 {
     public:
         Aereonaves();
-        virtual ~Aereonaves();
+        void volar();
+        void despegar();
+        void aterrizar();
+        void transportarGente();
+        
+        virtual ~Aereonaves(); 
 
     protected:
 
@@ -14,13 +19,14 @@ class Aereonaves
         std::string color = "";
         std::string nombre = "";
         std::string modelo = "";
+        std::string marca = "";
         //std::string tipo_motor = "";
-        std::string tipo_velocidad = "";
-        float peso_kg = 0.0;
-        float velocidad_mph = 0.0;
-        double tamaio_centimetros = 0.0;
-        int total_pasajeros_pasajeros = 0;
-        int motores = "";
+        //std::string tipo_velocidad = "";
+        float pesoKg = 0.0;
+        float vueloVelocidadMaxima = 0.0;
+        double tamanioCentimetros = 0.0;
+        int totalMaximoPpasajeros = 0;
+        int motores = 0;
 };
 
 #endif // AEREONAVES_H

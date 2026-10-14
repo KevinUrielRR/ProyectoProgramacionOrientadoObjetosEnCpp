@@ -1,0 +1,7 @@
+https://www.britannica.com/topic/Data-Encryption-Standard
+https://www.schneier.com/academic/blowfish/
+https://www.philzimmermann.com/EN/background/index.html
+https://www.rsa.com/solutions/
+https://www.esat.kuleuven.be/cosic/people/person/?u=u0005695
+https://csrc.nist.gov/pubs/fips/197/final
+https://msmk.university/advanced-encryption-standard-aes/

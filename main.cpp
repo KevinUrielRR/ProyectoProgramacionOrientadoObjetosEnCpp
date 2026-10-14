@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "src/Aereonaves.cpp"
+
 using namespace std;
 
 int main()
