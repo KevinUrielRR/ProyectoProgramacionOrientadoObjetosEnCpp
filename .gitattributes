@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+*.md diff=markdown
+*.cpp diff=cpp
+*.txt diff=txt
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
