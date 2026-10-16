@@ -1,5 +1,11 @@
+#include "../src/MonitorAereonave.cpp"
+
 #ifndef AEREONAVES_H
 #define AEREONAVES_H
+
+
+
+
 
 
 class Aereonaves
@@ -11,29 +17,10 @@ class Aereonaves
         void aterrizar();
         void transportarGente();
         
-      
-        std::string getTipoVelocidad();
-        std::string getTipoMotor();
-        std::string getModelo();
-        std::string getColor();
-        std::string getNombre();
-        std::string getMarca();
-        float getPesoKg();
-        float getVelocidadActual();
-        float getVelocidadMaxima();
-        double getTamanioCentimetros();
-        int getTotalMaximoPasajeros();
-        int getMotores();
-        int getTotalActualPasajeros();
+        MonitorAereonave *monitor = new MonitorAereonave(this->pesoKg, this->vueloVelocidadActual, this->vueloVelocidadMaxima, this->tamanioCentimetros, this->totalMaximoPasajeros, this->motores, this->color, this->nombre, this->modelo, this->marca);
+        virtual ~Aereonaves();
         
-        void setVelocidadActual();
-        void setPasajero();
-        void setColor();
-        void setModelo();
-        void setMarca();
-        void setNombre();
-        virtual ~Aereonaves(); 
-
+        
     protected:
 
     private:
