@@ -1,5 +1,5 @@
-#ifndef HELICOPTERO_H
-#define HELICOPTERO_H
+#ifndef MONITORAEREONAVES_H
+#define MONITORAEREONAVES_H
 
 
 class MonitorAereonave
@@ -38,4 +38,4 @@ class MonitorAereonave
     private:
 };
 
-#endif // HELICOPTERO_H
+#endif // MONITORAEREONAVES_H
