@@ -11,7 +11,7 @@ class Helicoptero
     protected:
         
     private:
-        
+        bool privado = false;
 };
 
 #endif // HELICOPTERO_H
