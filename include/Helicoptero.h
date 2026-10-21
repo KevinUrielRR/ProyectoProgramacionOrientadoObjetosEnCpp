@@ -7,10 +7,11 @@ class Helicoptero
     public:
         Helicoptero();
         virtual ~Helicoptero();
-
+        
     protected:
-
+        
     private:
+        
 };
 
 #endif // HELICOPTERO_H

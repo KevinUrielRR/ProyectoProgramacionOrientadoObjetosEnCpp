@@ -13,6 +13,7 @@ int main()
     aereonave.girarEnFormaDeRizo();
     aereonave.girarEnFormaDeVuelta();
     aereonave.aterrizar();
+    aereonave.monitor->mostrarDatos();
     //cout << "Hello world!" << endl;
     return 0;
 }

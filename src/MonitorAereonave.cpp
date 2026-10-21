@@ -11,6 +11,8 @@ MonitorAereonave::MonitorAereonave(float pesoKg, float vueloVelocidadActual, flo
 {
     //ctor
 }
+
+
 void MonitorAereonave::mostrarDatos()
 {
     
